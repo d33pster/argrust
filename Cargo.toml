@@ -1,0 +1,18 @@
+[package]
+name = "argrust"
+version = "0.1.0"
+edition = "2021"
+description = "Argrust - Simple with Complex features"
+readme = "README.md"
+license-file = "LICENSE"
+authors = ["Soumyo Deep Gupta <deep.main.ac@gmail.com>"]
+keywords = ["d33pster", "argrust", "argument-parser", "cli-argument", "args"]
+categories = ["command-line-interface"]
+repository = "https://github.com/d33pster/argrust"
+
+[dependencies]
+rustypath = "0.1.1"
+
+[[bin]]
+name = "argrust"
+path = "src/main.rs"
